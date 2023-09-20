@@ -1,0 +1,38 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Hp\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add express socket.io mongoose
+
+PATH: 
+  C:\Python311\Scripts\;C:\Python311\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\CMake\bin;C:\Program Files\GTK3-Runtime Win64\bin;C:\Program Files\gettext-iconv\bin;C:\Program Files\PostgreSQL\14\bin;C:\Program Files\PostgreSQL\14\lib;C:\Users\Hp\anaconda3;C:\Users\Hp\anaconda3\Library\mingw-w64\bin;C:\Users\Hp\anaconda3\Library\usr\bin;C:\Users\Hp\anaconda3\Library\bin;C:\Users\Hp\anaconda3\Scripts;C:\Users\Hp\anaconda3\anaconda;C:\Users\Hp\anaconda3\anaconda\Library\mingw-w64\bin;C:\Users\Hp\anaconda3\anaconda\Library\usr\bin;C:\Users\Hp\anaconda3\anaconda\Library\bin;C:\Users\Hp\anaconda3\anaconda\Scripts;C:\Users\Hp\AppData\Local\Microsoft\WindowsApps;C:\src\flutter\bin;C:\Users\Hp\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Hp\AppData\Local\atom\bin;C:\Program Files\heroku\bin;C:\Python3X;C:\OSGeo4W\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Program Files\PuTTY\;C:\Program Files\MongoDB\Server\6.0\bin;C:\Users\Hp\Downloads\mongosh-1.8.2-win32-x64\bin;;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Hp\anaconda3;C:\Users\Hp\anaconda3\Library\mingw-w64\bin;C:\Users\Hp\anaconda3\Library\usr\bin;C:\Users\Hp\anaconda3\Library\bin;C:\Users\Hp\anaconda3\Scripts;C:\Users\Hp\anaconda3\anaconda;C:\Users\Hp\anaconda3\anaconda\Library\mingw-w64\bin;C:\Users\Hp\anaconda3\anaconda\Library\usr\bin;C:\Users\Hp\anaconda3\anaconda\Library\bin;C:\Users\Hp\anaconda3\anaconda\Scripts;C:\Users\Hp\AppData\Local\Microsoft\WindowsApps;C:\src\flutter\bin;C:\Users\Hp\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Hp\AppData\Local\atom\bin;C:\Program Files\heroku\bin;C:\Users\Hp\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.18.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: read ECONNRESET
+      at TLSWrap.onStreamRead (node:internal/stream_base_commons:217:20)
+
+npm manifest: 
+  {
+    "name": "server",
+    "version": "1.0.0",
+    "description": "chat app using socket.io",
+    "main": "server.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "npx nodemon server.js"
+    },
+    "author": "DatTechGuy",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
